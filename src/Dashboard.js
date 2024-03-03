@@ -40,7 +40,6 @@ const Dashboard = () => {
       <div className="bottom-container">
         <button className="button" onClick={goToWorkerPage}>
           <FontAwesomeIcon icon={faUser} className="icon" />
-          
         </button>
         <button className="button">
           <FontAwesomeIcon icon={faHome} className="icon" />  
@@ -52,6 +51,7 @@ const Dashboard = () => {
 }
 
 export default Dashboard;
+
 
 
 
