@@ -1,0 +1,101 @@
+.worker-page-container {
+  position: relative;
+  background: linear-gradient(#000E09, #000000);
+  padding: 20px;
+  text-align: center; /* Align the Worker Page content to the center */
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: calc(50% - 22px); /* Adjust width and center */
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  text-align: center; /* Align the input text to center */
+  border: none; /* Remove border */
+  color: white; /* Set text color */
+}
+
+.search-container {
+  position: relative; /* Position the search container */
+}
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Align the employee list to the center */
+}
+
+.employee-item {
+  width: calc(50% - 10px);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  justify-content: left;
+  position: relative; /* Make employee-item position relative for absolute positioning */
+  border-radius: 40px;
+}
+
+.employee-badge {
+  width: 30px;
+  height: 30px;
+  background-color: #313131;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.worker-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+}
+
+/* Style the data displayed for DOB */
+.dob-data {
+  color: orange; /* Set the color to orange */
+}
+
+/* Style the data displayed for Role */
+.role-data {
+  color: green; /* Set the color to green */
+}
+
+/* Align placeholder text to center */
+input[type="text"]::placeholder {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.emp {
+  color: aliceblue;
+}
+
+.green-icon {
+  color: green;
+  height: 30px;
+  width: 30px;
+}
+
+button {
+  background-color: #313131;
+  height: 80px;
+  width: 100px;
+  border-radius: 20px;
+}
+.search
+{
+  padding-left: 20px;
+}
