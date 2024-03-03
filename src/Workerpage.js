@@ -7,7 +7,7 @@ import './Workerpage.css';
 const WorkerPage = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
-  const [employees, setEmployees] = useState([
+  const [employees,] = useState([
     { id: 1, name: 'vimal', dob: '1990-01-01', role: 'Developer' },
     { id: 2, name: 'dharshan', dob: '1985-05-15', role: 'Designer' },
     { id: 3, name: 'vinay', dob: '1923-05-15', role: 'tester' },
