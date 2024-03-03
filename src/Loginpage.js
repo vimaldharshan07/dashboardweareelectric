@@ -1,19 +1,19 @@
-// LoginPage.js
+
 
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link, useNavigate } from 'react-router-dom'; 
 import './Loginpage.css';
 
 function LoginPage() {
   const navigate = useNavigate();
 
   const handleLogin = (event) => {
-    event.preventDefault(); // Prevent form submission
-    navigate('/dashboard'); // Navigate to the dashboard route
+    event.preventDefault(); 
+    navigate('/dashboard');
   };
 
   const handleForgotPassword = () => {
-    // Handle forgot password functionality here
+    
     alert("Forgot Password functionality will be implemented soon!");
   };
 

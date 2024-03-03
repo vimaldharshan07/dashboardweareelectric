@@ -25,7 +25,7 @@ const Dashboard = () => {
       <div className="background" />
       <img src="/logo2.png" alt="Logo" className="main-logo" />
       <h2 onClick={handleDashboardClick} className="dashboard-heading">Employee Productivity Dashboard</h2>
-      <div className="productivity-container"> {/* Container for productivity details */}
+      <div className="productivity-container"> 
         {showProductivity && (
           <div className="productivity-data">
             <p>Productivity on Monday: 80%</p>

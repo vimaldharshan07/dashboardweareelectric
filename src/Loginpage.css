@@ -1,18 +1,18 @@
-/* Loginpage.css */
+
 
 .login-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Make the container take the full height of the viewport */
+  height: 100vh; 
   background: linear-gradient(#000E09, #000000);
-  color: #00FF00; /* Green color for text */
-  font-family: 'Mulish', sans-serif; /* Use Mulish font */
+  color: #00FF00; 
+  font-family: 'Mulish', sans-serif; 
 }
 
 .logo {
-  width: 100px; /* Adjust the logo size as needed */
+  width: 100px; 
 }
 
 h2 {
@@ -24,11 +24,11 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; /* Make the form take the full width */
+  width: 100%; 
 }
 
 input {
-  width: 80%; /* Adjust input width as needed */
+  width: 80%; 
   padding: 10px;
   margin: 5px 0;
   border-radius: 20px;
@@ -40,16 +40,16 @@ input {
   height: 40px;
   font-size: 14px;
   margin: 10px 0;
-  background-color:  #00FF2580; /* Dark background color */
+  background-color:  #00FF2580; 
   border: none;
   border-radius: 20px;
   color: #313131;
   cursor: pointer;
-}/* Green text color */
+}
   
 
 .forgot-password-link {
-  color: #00FF00; /* Green color for the link */
+  color: #00FF00; 
   margin-top: 10px;
   text-decoration: none;
   cursor: pointer;

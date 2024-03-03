@@ -3,10 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 100vh; /* Full height of the viewport */
+  height: 100vh; 
   padding: 20px;
   background: linear-gradient(#000E09, #000000);
-  overflow: hidden; /* Hide overflow content */
+  overflow: hidden; 
 }
 
 .background {
@@ -20,11 +20,11 @@
 }
 
 .main-logo {
-  width: 100px; /* Adjust the size as needed */
+  width: 100px; 
 }
 
 .secondary-logo {
-  width: 50px; /* Adjust the size as needed */
+  width: 50px; 
   position: absolute;
   top: 20px;
   right: 20px;
@@ -32,19 +32,20 @@
 
 .dashboard-heading {
   font-size: 25px;
+  padding-left: 100px;
   margin-bottom: 20px;
   color: white;
   cursor: pointer;
   background-color: #1A2C2C99;
   border-radius: 15px;
   height: 30px;
-  width: 90%; /* Adjust the width for mobile */
-  max-width: 500px; /* Set a max-width for larger screens */
+  width: 90%; 
+  max-width: 500px; 
 }
 
 .productivity-container {
-  overflow-y: auto; /* Allow vertical scrolling for overflow */
-  flex-grow: 1; /* Allow the container to grow to fill available space */
+  overflow-y: auto; 
+  flex-grow: 1; 
 }
 
 .productivity-data {

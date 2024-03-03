@@ -1,34 +1,38 @@
 .worker-page-container {
   position: relative;
-  background: linear-gradient(#000E09, #000000);
+  background: linear-gradient(#000e09, #000000);
   padding: 20px;
-  text-align: center; /* Align the Worker Page content to the center */
+  text-align: center;
 }
 
-.logo {
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.main-logo {
   width: 100px;
+}
+
+.search {
   margin-bottom: 20px;
 }
 
-input[type="text"] {
-  width: calc(50% - 22px); /* Adjust width and center */
+input[type='text'] {
+  width: calc(100% - 40px);
   padding: 10px;
-  margin-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  text-align: center; /* Align the input text to center */
-  border: none; /* Remove border */
-  color: white; /* Set text color */
-}
-
-.search-container {
-  position: relative; /* Position the search container */
+  text-align: center;
+  border: none;
+  color: white;
 }
 
 .employee-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Align the employee list to the center */
+  justify-content: center;
 }
 
 .employee-item {
@@ -37,7 +41,7 @@ input[type="text"] {
   background-color: rgba(255, 255, 255, 0.1);
   margin-bottom: 10px;
   justify-content: left;
-  position: relative; /* Make employee-item position relative for absolute positioning */
+  position: relative;
   border-radius: 40px;
 }
 
@@ -56,29 +60,6 @@ input[type="text"] {
   transform: translate(50%, -50%);
 }
 
-.worker-logo {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 50px;
-}
-
-/* Style the data displayed for DOB */
-.dob-data {
-  color: orange; /* Set the color to orange */
-}
-
-/* Style the data displayed for Role */
-.role-data {
-  color: green; /* Set the color to green */
-}
-
-/* Align placeholder text to center */
-input[type="text"]::placeholder {
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
 .emp {
   color: aliceblue;
 }
@@ -95,7 +76,22 @@ button {
   width: 100px;
   border-radius: 20px;
 }
-.search
+
+.worker-logo {
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.dob-data
 {
-  padding-left: 20px;
+  color: orange;
+}
+.role-data 
+{
+ color:green;
+}
+.emp
+{
+  color: white;
 }
